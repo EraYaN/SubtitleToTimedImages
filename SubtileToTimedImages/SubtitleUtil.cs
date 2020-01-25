@@ -15,7 +15,6 @@ namespace SubtileToTimedImages
             List<SubtitleEvent> events = new List<SubtitleEvent>();
             StringBuilder logger = new StringBuilder();
             var result = BluRaySupParser.ParseBluRaySup(inputFile, logger);
-            Debug.WriteLine("Writing result...");
             int i = 0;
             foreach (var line in result)
             {
@@ -35,7 +34,6 @@ namespace SubtileToTimedImages
             var vobsubparser = new VobSubParser(false);
             vobsubparser.OpenSubIdx(inputFile, idxFile);
             var MergedVobSubPacks = vobsubparser.MergeVobSubPacks();
-            Debug.WriteLine("Writing result...");
             int i = 0;
             foreach (var line in MergedVobSubPacks)
             {

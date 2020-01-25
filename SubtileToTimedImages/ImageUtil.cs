@@ -8,6 +8,7 @@ namespace SubtileToTimedImages
 {
     static class ImageUtil
     {
+        // In jellyfin we should probably use existing skia stuff or something similar.
         public static byte[] ConvertToPngBytes(Image img)
         {
             using var stream = new MemoryStream();            
