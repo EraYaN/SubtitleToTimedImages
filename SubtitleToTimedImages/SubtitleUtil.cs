@@ -6,7 +6,7 @@ using System.Diagnostics;
 using System.Drawing;
 using System.Text;
 
-namespace SubtileToTimedImages
+namespace SubtitleToTimedImages
 {
     internal static class SubtitleUtil
     {
