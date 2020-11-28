@@ -5,8 +5,6 @@ VisualStudioVersion = 16.0.29709.97
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SubtitleToTimedImages", "SubtitleToTimedImages\SubtitleToTimedImages.csproj", "{21986C32-A4D6-46C9-A16C-A81C17B9ADA3}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LibSE", "..\subtitleedit\libse\LibSE.csproj", "{9E2E99E1-042D-4202-9C40-2C6E556A2ED7}"
-EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -17,10 +15,6 @@ Global
 		{21986C32-A4D6-46C9-A16C-A81C17B9ADA3}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{21986C32-A4D6-46C9-A16C-A81C17B9ADA3}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{21986C32-A4D6-46C9-A16C-A81C17B9ADA3}.Release|Any CPU.Build.0 = Release|Any CPU
-		{9E2E99E1-042D-4202-9C40-2C6E556A2ED7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{9E2E99E1-042D-4202-9C40-2C6E556A2ED7}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{9E2E99E1-042D-4202-9C40-2C6E556A2ED7}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{9E2E99E1-042D-4202-9C40-2C6E556A2ED7}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
